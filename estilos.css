@@ -4,9 +4,31 @@ body{
     background: url(coffee.jpg);
     background-size:cover;
     background-position:center;
+    font-family: 'Silkscreen', cursive;
+}
+h1{
+    color:blue;
+    font-size: 6em;
+    text-align: center;
+}
+h2{
+    text-align: center;
     font-family:sans-serif;
 }
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
 span{
+    text-align: center;
     display:block;
     font-family: monospace;
     white-space: nowrap;
