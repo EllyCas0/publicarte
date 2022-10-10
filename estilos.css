@@ -6,3 +6,19 @@ body{
     background-position:center;
     font-family:sans-serif;
 }
+span{
+    display:block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 51ch;
+
+    animation: typing 2s steps(51), blink .5s infinite step-end alternate;
+    overflow:hidden;
+    }
+    @keyFrames typing {
+        from {widtn:0}
+    }
+    @keyFrames blink {
+        50% {border-clor:transparent}
+    }></span>
