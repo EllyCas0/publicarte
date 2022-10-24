@@ -1,18 +1,50 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background: url(coffee.jpg);
     background-size:cover;
     background-position:center;
     font-family: 'Silkscreen', cursive;
 }
+.form-login {
+    width: 400px;
+    height: 340px;
+    margin: auto;
+    margin-top: 1px;
+    box-shadow: 7px 13px 37px #000;
+    background-color: #017bab;
+}
+.form-login h5 {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    height: 40px;
+    font-size: 20px;
+}
+.controls {
+    font-weight: bold;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    font-size: 14px;
+    background-color: aliceblue;
+}
+
+.buttons {
+    width: auto;
+    height: 40px;
+    color: aliceblue;
+}
+
 h1{
-    color:blue;
+    color:#017;
     font-size: 6em;
     text-align: center;
 }
 a{
-    color:blue;
+    color:#017bab;
     font-size: 2em;
     text-align: center;
 }
