@@ -2,26 +2,47 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url(coffee.jpg);
-    background-size:cover;
+    background: url(../images/fondo.jpeg);
+    background-size: cover;
     background-position:center;
-    font-family: 'Silkscreen', cursive;
+    background-repeat: no-repeat;
+    font-family: 'Opera 3', cursive;
 }
-.form-login {
+.caja {
+    background-color: rgb(217, 241, 250);
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    margin: 1px 460px;
+    border-style: inset;
+    border-radius: 15px;
+    position: relative;
+    bottom: 20px;
+}
+.ventana {
     width: 400px;
     height: 340px;
     margin: auto;
     margin-top: 1px;
     box-shadow: 7px 13px 37px #000;
-    background-color: #017bab;
+    background-color: rgb(21, 41, 151);
+    padding: 33px;
+    display: none;
+    border-radius: 15px;
+    position: relative;
+    bottom: 250px;
 }
-.form-login h5 {
+.ventana h5 {
     margin: 0;
     text-align: center;
     margin-bottom: 30px;
     border-bottom: 1px solid;
     height: 40px;
     font-size: 20px;
+}
+#cerrar {
+    position: absolute;
+    right: 390px;
 }
 .controls {
     font-weight: bold;
@@ -38,8 +59,12 @@ body{
     color: aliceblue;
 }
 
+#contenedor {
+    text-align: center;
+}
+
 h1{
-    color:#017;
+    color:rgb(21, 41, 151);
     font-size: 6em;
     text-align: center;
 }
@@ -49,17 +74,19 @@ a{
     text-align: center;
 }
 h2{
+    font-size: 38px;
     text-align: center;
-    font-family:sans-serif;
-}
-h3{
-    text-align: center;
-}
-h4{
-    text-align: center;
+    font-family:opera 3;
+    position: relative;
+    bottom: 100px;
 }
 p{
     text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.id{
+    position: absolute;
 }
 form{
     text-align: center;

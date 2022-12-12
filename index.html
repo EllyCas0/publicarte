@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="styles/estilos.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
     <title>PUBLICARTE</title>
 </head>
 <body>
@@ -19,21 +19,39 @@
     <p><i>Estamos felices de poder 
         servirle al público</i><br><br>
     </p>
-    <section class="form-login">
-    <form>
+    <div class="ventana" id="vent">
+        <div id="cerrar"><a href="javascript:cerrar()"><img src="images/cerrar.png"></div>
+        <form>
+            <br>
+            <h5> Bienvenido</h5>
+            <label for="nombre">NOMBRE:</label> 
+            <input class=controls type=usuario id="nombre" name="nombre" placeholder=" ">
+        </form>
         <br>
-        <h5> Bienvenido</h5>
-        <label for="nombre">NOMBRE:</label> 
-        <input class=controls type=usuario id="nombre" name="nombre" placeholder=" ">
-    </form>
-    <br>
-    <form>
-        <label for="contraseña">CONTRASEÑA:</label> 
-        <input class=controls type=password id="contraseña" name="contraseña" placeholder=" ">
-        <input class=buttons type=submit name="" value="Entrar">
-        <a href="publicarte.html">Entrar</a>
-    </form>
-    </section>
+        <form>
+            <label for="contraseña">CONTRASEÑA:</label> 
+            <input class=controls type=password id="contraseña" name="contraseña" placeholder=" ">
+            <input class=buttons type=submit name="" value="Entrar">
+            <a href="publicarte.html">Entrar</a>
+        </form>
+    </div>
+    <div class="caja">
+        <p class="id">Soy un...</p>
+        <section id="contenedor">
+            <a href="publicarte.html">Cliente</a>
+            <br>
+            <a href="javascript:abrir()">Trabajador</a>
+        </section>
+    </div>
+
+<script>
+    function abrir() {
+        document.getElementById("vent").style.display="block";
+    }
+    function cerrar() {
+        document.getElementById("vent").style.display="none";
+    }
+</script>
 </body>
 
 </html>
