@@ -8,6 +8,21 @@ body{
     background-repeat: no-repeat;
     font-family: 'Opera 3', cursive;
 }
+.servicios{
+    text-align: center;
+}
+.precios{
+    background-color: rgb(217, 241, 250);
+    padding: 120px;
+    width: 950px;
+    font-size: 52px;
+    text-align: center;
+    margin: 1px 4px;
+    margin-top: 12px;
+    margin-inline-start: 17px;
+    border-style: inset;
+    border-radius: 15px;
+}
 .caja {
     background-color: rgb(217, 241, 250);
     padding: 5px;
