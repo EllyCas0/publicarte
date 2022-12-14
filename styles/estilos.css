@@ -8,14 +8,25 @@ body{
     background-repeat: no-repeat;
     font-family: 'Opera 3', cursive;
 }
+#publicarte{
+    background: url(../images/fondo.jpeg);
+    background-size: cover;
+}
 .servicios{
     text-align: center;
+    background-color: rgba(119, 186, 189, 30%);
+    font-size: 22px;
+    margin: 1px 4px;
+    margin-top: 12px;
+    margin-inline-start: 17px;
+    border-style: inset;
+    border-radius: 15px;
+    position: relative;
+    bottom: 1px;
 }
 .precios{
-    background-color: rgb(217, 241, 250);
-    padding: 120px;
-    width: 950px;
-    font-size: 52px;
+    background-color: rgba(119, 186, 189, 30%);
+    font-size: 32px;
     text-align: center;
     margin: 1px 4px;
     margin-top: 12px;
