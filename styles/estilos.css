@@ -1,16 +1,77 @@
 body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     background: url(../images/fondo.jpeg);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
     font-family: 'Opera 3', cursive;
 }
+h1{
+    color:rgb(29, 54, 194);
+    font-size: 6em;
+    text-align: center;
+    text-shadow: 2px 5px #000 ;
+}
+h2{
+    font-size: 38px;
+    text-align: center;
+    font-family:opera 3;
+    position: relative;
+    bottom: 100px;
+}
+p{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    font-family: 'Silkscreen';
+}
+/*Hasta aquí detalles de estilo del documento index*/
+
 #publicarte{
     background: url(../images/fondo.jpeg);
     background-size: cover;
+}
+.container{
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.caja{
+    width: 80px;
+    height: 80px;
+    border: solid 1px black;
+    text-align: center;
+    line-height: 60px;
+    margin: 10px;
+}
+.slider{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite;
+    alternate linear;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 50%;
+    height: 50%;
+}
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
 }
 .servicios{
     text-align: center;
@@ -88,28 +149,10 @@ body{
 #contenedor {
     text-align: center;
 }
-
-h1{
-    color:rgb(21, 41, 151);
-    font-size: 6em;
-    text-align: center;
-}
 a{
     color:#017bab;
     font-size: 2em;
     text-align: center;
-}
-h2{
-    font-size: 38px;
-    text-align: center;
-    font-family:opera 3;
-    position: relative;
-    bottom: 100px;
-}
-p{
-    text-align: center;
-    position: relative;
-    bottom: 100px;
 }
 .id{
     position: absolute;
