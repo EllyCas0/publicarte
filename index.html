@@ -36,11 +36,9 @@
         <br>
         <form>
             <label for="contraseña">CONTRASEÑA:</label> 
-            <input class=controls type=password id="contraseña" name="contraseña" placeholder=" ">
+            <input class=controls type=password id="contraseña" name="contraseña" placeholder=" "> 
         </form>
-        <a>
-            <input class=buttons type=submit name="" value="Entrar" href="publicarte.html"> 
-        </a>
+        <button onclick="paratrabajadores()">Entrar</button>
     </div>
 
 <script>
@@ -49,6 +47,18 @@
     }
     function cerrar() {
         document.getElementById("vent").style.display="none";
+    }
+    
+    function paratrabajadores() {
+        var nombre = document.getElementById("nombre").value
+        var contraseña = document.getElementById("contraseña").value
+        
+        if (contraseña == "Suga"){
+            alert("Tienes permiso")
+        }else{
+            alert("No tienes permiso para entrar")
+        }
+
     }
 </script>
 </body>
