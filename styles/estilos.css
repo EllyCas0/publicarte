@@ -34,7 +34,42 @@ a{
     bottom: 10px;
     right: 90px;
 }
+
 /*Hasta aquí detalles de estilo del documento index*/
+
+.ventana {
+    width: 400px;
+    height: 340px;
+    margin: auto;
+    margin-top: 1px;
+    background-color: rgb(29, 54, 194);
+    padding: 33px;
+    display: none;
+    border-radius: 15px;
+    position: relative;
+    bottom: 400px;
+}
+.ventana h5 {
+    margin: 0;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: #000 1px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+    height: 40px;
+    font-size: 20px;
+}
+.caja{
+    text-align: center;
+    line-height: 60px;
+    margin: 10px;
+}
+#cerrar {
+    position: absolute;
+    left: 430px;
+    top: 3px;
+}
+/*Hasta aquí detalles de estilo del documento index, ventana para trabajadores*/
 
 #publicarte{
     background: url(../images/fondo.jpeg);
@@ -47,11 +82,7 @@ a{
     flex-wrap: wrap;
 
 }
-.caja{
-    text-align: center;
-    line-height: 60px;
-    margin: 10px;
-}
+
 .slider{
     width: 100%;
     height: auto;
@@ -113,31 +144,8 @@ a{
     position: relative;
     bottom: 20px;
 }
-.ventana {
-    width: 400px;
-    height: 340px;
-    margin: auto;
-    margin-top: 1px;
-    box-shadow: 7px 13px 37px #000;
-    background-color: rgb(21, 41, 151);
-    padding: 33px;
-    display: none;
-    border-radius: 15px;
-    position: relative;
-    bottom: 250px;
-}
-.ventana h5 {
-    margin: 0;
-    text-align: center;
-    margin-bottom: 30px;
-    border-bottom: 1px solid;
-    height: 40px;
-    font-size: 20px;
-}
-#cerrar {
-    position: absolute;
-    right: 390px;
-}
+
+
 .controls {
     font-weight: bold;
     border: 1px solid #017bab;
