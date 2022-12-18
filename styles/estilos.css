@@ -69,6 +69,9 @@ a{
     left: 430px;
     top: 3px;
 }
+label {
+    color: aliceblue;
+}
 /*Hasta aquí detalles de estilo del documento index, ventana para trabajadores*/
 
 #publicarte{
