@@ -85,6 +85,13 @@ label {
     align-items: center;
     justify-content: center;
     font-size: 20px;
+    font-family: 'Silkscreen';
+    color: rgb(29, 54, 194);
+}
+.btn:hover {
+    background: rgb(29, 54, 194);
+    border-color: aliceblue;
+    color:rgb(217, 241, 250)
 }
 /*Hasta aquí detalles de estilo del documento index, ventana para trabajadores*/
 
@@ -128,7 +135,7 @@ label {
     75%{margin-left: -300%;}
     100%{margin-left: -300%;}
 }
-.servicios{
+#servicios{
     text-align: center;
     background-color: rgba(119, 186, 189, 30%);
     font-size: 22px;
@@ -149,6 +156,7 @@ label {
     margin-inline-start: 17px;
     border-style: inset;
     border-radius: 15px;
+    text-shadow: none;
 }
 .caja {
     background-color: rgb(217, 241, 250);
