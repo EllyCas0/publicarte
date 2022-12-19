@@ -99,6 +99,52 @@ label {
     background: url(../images/fondo.jpeg);
     background-size: cover;
 }
+#servicios{
+    text-align: center;
+    background-color: rgba(119, 186, 189, 30%);
+    font-size: 22px;
+    margin: 1px 4px;
+    margin-top: 12px;
+    margin-inline-start: 17px;
+    border-style: inset;
+    border-radius: 15px;
+    position: relative;
+    bottom: 1px;
+}
+.precios{
+    background-color: rgba(119, 186, 189, 30%);
+    font-size: 32px;
+    text-align: center;
+    margin: 1px 4px;
+    margin-top: 12px;
+    margin-inline-start: 17px;
+    border-style: inset;
+    border-radius: 15px;
+    text-shadow: none;
+}
+.botoncatalogo {
+    display: inline-flex;
+    text-transform: uppercase;
+    width: 10%;
+    position: relative;
+    left: 950px;
+    margin-top: 20px;
+    border-radius: 14px;
+    border: solid;
+    border-color: aliceblue;
+    height: 50px;
+    background-color:#017bab;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Opera 3';
+    color: aliceblue;
+}
+.botoncatalogo:hover {
+    border-color: #017bab;
+    background-color:aliceblue;
+    color: #017bab;
+}
 .container{
     width: 100%;
     background-color: bisque;
@@ -134,29 +180,6 @@ label {
     70%{margin-left: -200%;}
     75%{margin-left: -300%;}
     100%{margin-left: -300%;}
-}
-#servicios{
-    text-align: center;
-    background-color: rgba(119, 186, 189, 30%);
-    font-size: 22px;
-    margin: 1px 4px;
-    margin-top: 12px;
-    margin-inline-start: 17px;
-    border-style: inset;
-    border-radius: 15px;
-    position: relative;
-    bottom: 1px;
-}
-.precios{
-    background-color: rgba(119, 186, 189, 30%);
-    font-size: 32px;
-    text-align: center;
-    margin: 1px 4px;
-    margin-top: 12px;
-    margin-inline-start: 17px;
-    border-style: inset;
-    border-radius: 15px;
-    text-shadow: none;
 }
 .caja {
     background-color: rgb(217, 241, 250);
