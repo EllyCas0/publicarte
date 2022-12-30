@@ -14,11 +14,20 @@
 </head>
 <body id="publicarte">
     <h1 class="precios">   CATÁLOGO    </h1>
-    <div class="container">
-        <div class="caja caja1">
-        <div class="caja caja2">
-        <div class="caja caja3">
-        <div class="caja caja4">
-    </div>
+    <form action="/formulario" method="get">
+        <label for="nombre">NOMBRE</label>
+        <input id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label>LIBROS DE COLOREAR</label>
+        <input type="radio"/>
+        <label>BOLSAS DE REGALO</label>
+        <input type="radio"/>
+        <br>
+        <label>CANTIDAD</label>
+        <input placeholder="Cantidad"/>
+        <br>
+        <label for="comentario">COMENTARIO</label>
+        <textarea></textarea>
+    </form>
 </body>
 </html>
